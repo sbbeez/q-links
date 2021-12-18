@@ -1,0 +1,20 @@
+{
+  "name": "q-links-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db": "sqlite3",
+    "deploy": "ncc build index.js -o server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "sqlite3": "^5.0.2"
+  }
+}
